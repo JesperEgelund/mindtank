@@ -12,4 +12,9 @@ iframe {
 
 .app-bio-pic {
     display: block;
+    height: 100px;
+}
+
+.app-bio {
+
 }

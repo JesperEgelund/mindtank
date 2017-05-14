@@ -1,14 +1,16 @@
-<h4 *ngIf="!auth.authenticated()">
-    You are not logged in, please click 'Log in' button to login</h4>
-
-<div *ngIf="auth.authenticated()">
+<div>
 <div class="row">
         <div class="col-md-8">
             <iframe src="https://console.api.ai/api-client/demo/embedded/af7c5168-d8d2-4148-8b79-a8ac441c9ae2"></iframe>
         </div>
         <div class="col-md-4 app-left-panel">
-            <div class="app-bio-pic">Profile Photo</div>
-            <div class="app-bio">Bio</div>
+                <img src="..." alt="..." class="img-thumbnail">           
+                <div class="app-bio">Bio</div>
         </div>
     </div>
 </div>
+
+
+<h4 *ngIf="!auth.authenticated()">
+    You are not logged in, please click 'Log in' button to login</h4>
+
