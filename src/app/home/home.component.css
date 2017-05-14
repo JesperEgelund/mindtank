@@ -27,10 +27,8 @@ iframe {
 }
 
 img {
-    display: inline;
     margin: 0 auto;
-    height: 150%;
-    width: auto;
+    width: 155px;
 }
 
 .app-bio {
