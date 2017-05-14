@@ -1,11 +1,19 @@
-<div>
-<div class="row">
+<div class="chat-interface">
+    <div class="row no-gutters">
         <div class="col-md-8">
             <iframe src="https://console.api.ai/api-client/demo/embedded/af7c5168-d8d2-4148-8b79-a8ac441c9ae2"></iframe>
         </div>
         <div class="col-md-4 app-left-panel">
-                <img src="..." alt="..." class="img-thumbnail">           
-                <div class="app-bio">Bio</div>
+            
+            <div class="app-bot-bio card">
+               <img src="assets/_images/einstein2.jpg" class="img-fluid" alt="Responsive image">
+                <div class="app-bio card-block">
+                    <h4 class="card-title">Albert Einstein</h4>
+                    <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
@@ -13,4 +21,3 @@
 
 <h4 *ngIf="!auth.authenticated()">
     You are not logged in, please click 'Log in' button to login</h4>
-

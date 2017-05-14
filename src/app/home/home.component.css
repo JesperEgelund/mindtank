@@ -1,13 +1,14 @@
 iframe {
     width: 100%;
-    height: 400px;
+    height: 500px;
     border: 0;
 }
 
+.chat-interface {
+    border: 1px solid black;
+}
 .app-left-panel {
-    background-color: #2b313f;
-    height: 400px;
-    color: white;
+    height: 500px;
 }
 
 .app-bio-pic {
@@ -16,5 +17,7 @@ iframe {
 }
 
 .app-bio {
-
+background-color: #E6E6E6;
+height: 350px;
 }
+
