@@ -6,7 +6,7 @@ import Auth0 from 'auth0-js';
 
 const DOMAIN: string = 'jesperegelund.eu.auth0.com';
 const CLIENT_ID: string = 'RI4v412uu7oPcBXvmxkjELZHUpzPOaNh';
-const CALLBACK_URL: string = 'http://localhost:4200'; // or whatever your callback URL is
+const CALLBACK_URL: string = 'https://jesperegelund.github.io/mindtank/'; // or whatever your callback URL is
 
 @Injectable()
 export class AuthService {
