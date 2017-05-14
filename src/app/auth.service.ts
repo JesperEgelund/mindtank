@@ -4,8 +4,8 @@ import { tokenNotExpired } from 'angular2-jwt';
 
 import Auth0 from 'auth0-js';
 
-const DOMAIN: string = 'YOUR AUTH0 DOMAIN';
-const CLIENT_ID: string = 'YOUR AUTH0 CLIENT ID';
+const DOMAIN: string = 'jesperegelund.eu.auth0.com';
+const CLIENT_ID: string = 'RI4v412uu7oPcBXvmxkjELZHUpzPOaNh';
 const CALLBACK_URL: string = 'http://localhost:4200'; // or whatever your callback URL is
 
 @Injectable()
