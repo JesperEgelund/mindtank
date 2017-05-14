@@ -5,19 +5,28 @@ iframe {
 }
 
 .chat-interface {
-    border: 1px solid black;
+   height: 600px;
 }
-.app-left-panel {
-    height: 500px;
+.app-panel {
+    height: 100px;
 }
 
 .app-bio-pic {
     display: block;
+    width: 100px;
     height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
 }
 
 .app-bio {
-background-color: #E6E6E6;
-height: 350px;
 }
 
