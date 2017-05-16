@@ -3,5 +3,10 @@
 @media (max-width: 992px) { 
 .navbar-nav {
 margin-top: 40px; 
+margin-left: -15px;
+}
+
+.nav-item {
+    padding-left: 10px;
 }
 }
