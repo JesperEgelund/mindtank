@@ -1,0 +1,7 @@
+
+/* Medium devices (desktops, laptops of size 992px and down) */ 
+@media (max-width: 992px) { 
+.navbar-nav {
+margin-top: 40px; 
+}
+}

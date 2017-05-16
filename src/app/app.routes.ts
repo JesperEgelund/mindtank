@@ -3,13 +3,15 @@ import { Routes, RouterModule }        from '@angular/router';
 
 import { HomeComponent }               from './home/home.component';
 import { LoginComponent }              from './login/login.component';
-import { SelectorComponent }                    from './selector/selector.component';
+import { AboutComponent }              from './about/about.component';
+import { SelectorComponent }           from './selector/selector.component';
 
 
 const appRoutes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: SelectorComponent },
+  { path: 'albert', component: HomeComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'selector', component: SelectorComponent},
+  { path: 'about', component: AboutComponent },
   { path: '**', redirectTo: '' }
 ];
 

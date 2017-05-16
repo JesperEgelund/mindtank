@@ -10,13 +10,15 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { routing, appRoutingProviders } from './app.routes';
 import { SelectorComponent } from './selector/selector.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HomeComponent,
-    SelectorComponent
+    SelectorComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,7 @@ import { SelectorComponent } from './selector/selector.component';
   ],
   providers: [
     appRoutingProviders,
-    AuthService
+    AuthService,
   ],
   bootstrap: [AppComponent]
 })

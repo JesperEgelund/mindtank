@@ -1,0 +1,13 @@
+img {
+    margin: 0 auto;
+    width: 155px;
+}
+
+.app-bio-pic {
+    display: block;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
