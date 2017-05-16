@@ -1,3 +1,9 @@
+.card {
+background-color: white;
+}
+.card:hover {
+background-color: #F4F4F4;
+}
 img {
     margin: 0 auto;
     width: 155px;
