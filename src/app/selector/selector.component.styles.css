@@ -1,6 +1,11 @@
 .card {
 background-color: white;
 }
+
+.card-text {
+    min-height: 4.5rem;
+}
+
 .card:hover {
 background-color: #F4F4F4;
 }
@@ -17,3 +22,20 @@ img {
     overflow: hidden;
     border-radius: 50%;
 }
+
+/*Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+ }
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) { 
+        .card-text {
+    font-size: 12px;
+    min-height: 6rem;
+}
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {
+    .card-text {
+    min-height: none;}}

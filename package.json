@@ -1,10 +1,10 @@
 {
-  "name": "MindTank",
+  "name": "mindtank",
   "version": "0.0.0",
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
-    "deploy": "ng build -sm -ec -bh /mindtank/ & ngh --silent=false",
+    "deploy": "ng build -sm -ec -bh /mindtank/ & ngh --no-silent",
     "start": "ng serve",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
